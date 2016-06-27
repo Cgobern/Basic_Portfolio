@@ -5,6 +5,7 @@ body {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	line-height: 1.5;
 	text-align: left;
+	width: 960px;
 }
 a {
 	text-decoration: none;
@@ -19,13 +20,12 @@ a:hover, a:active {
 	clear: both;
 }
 
-.mainheader {
+.mainHeader {
 	text-align: left;
 	color: white;
-	width: 100%;
+	width: 200px;
 	height: auto;
 	background-color: #4aaaa5;
-
 }
 
 .mainheader nav {
@@ -51,15 +51,61 @@ a:hover, a:active {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	display: inline-block;
 	padding: 10px 25px;
+	/* Come back here to assign height */
 }
 
+.mainheader nav a:hover, .mainheader nav a:active, .mainheader nav .active a:link,
+nav .active a:visited {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	text-shadow: none;
+}
 
+.subheader {
+	color: #4aaaa5;
+	font-size: 25px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+.topcontent {
+	width: 650px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius:5px; 
+	background-color: white;
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;	
+}
 
+.maintext {
+	width: 90%;
+}
 
-
-
-.content {
-	width: 30%;
-	height: auto;
+.sidebar {
+	width: 200px;
+	background-color: white;
 	
+
+
 }
+
+.mainFooter {
+	background-color: #666666;
+	color: white;
+	width: 200px;
+	height: 100%;
+	margin: 0 auto;
+	padding: 10px 25px;
+	border: #4aaaa5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
