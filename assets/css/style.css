@@ -15,10 +15,6 @@ a {
 	text-decoration: none;
 }
 
-a:hover, a:active {
-
-}
-
 .body {
 	margin: 0 auto;
 
@@ -34,24 +30,23 @@ header {
 	border-color: #cccccc;
 	border-width: 4px;
 	height:90px;
+	
 } 
 
 .yourname {
 	display: inline-block;
-	text-align: left;
+	text-align: center;
 	color: white;
 	background-color: #4aaaa5;
 	width: 200px;
-	height: auto;
+	padding: 30px;
+	margin: 5px 100px;
 }
 
 .nav1 {
 	background-color: #ffffff;
 	color: #777777;
 	height: 40px;
-	border-radius: 5px;
-	-moz-border-radius: 5px;
-	-webkit-border-radius:5px;
 	float: right;
 	display: inline-block;
 	padding: 30px;
@@ -69,12 +64,11 @@ header nav a:hover, header nav a:active, header nav .active a:link,
 nav .active a:visited {
 	background-color: #4aaaa5;
 	color: #ffffff;
-	text-shadow: none;
+	text-shadow: none; 
 }
 
 .topcontent {
-	width: 650px;
-	border-radius: 5px; 
+	width: 650px; 
 	background-color: white;
 	color: #777777;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -88,31 +82,37 @@ nav .active a:visited {
 	border-bottom: solid;
 	border-color: #cccccc;
 	border-width: 4px;
+	padding:30px;
 }
 
 
 .photo {
 	float: left;
-	margin: 10px;
+	margin: 15px;
+	padding-left: 20px;
 }
 
-.maintext {
+.text {
 	width: 90%;
+	margin: 10px;
+	
 }
 
 .sidebar {
-	width: 270px;
+	width: 220px;
 	height: 200px;
-	margin: 20px 200px 600px 20px;
+	
 	background-color: white;
 	float: right;
 	font-size: 20px;
-	
+	text-align: center;
 }
 .connect{
 	border-bottom: solid;
 	border-color: #cccccc;
 	border-width: 4px;
+
+
 }
 
 .GitHub {
@@ -133,11 +133,11 @@ nav .active a:visited {
 	background-color: #666666;
 	color: white;
 	height: 100%;
-	padding: 10px 25px;
+	padding: 25px 25px;
 	margin: 0 auto;
 	border-top: solid;
 	border-color: #4aaaa5;
-	border- width: 5px;
+	border-top-width: 5px;
 	clear: both;
 }
 .clearfix {
