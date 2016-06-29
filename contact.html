@@ -18,29 +18,30 @@
 				<a href="contact.html">Contact</a>
 			</nav>
 		</header>
-		<article class="content">
-			<section>
-				<h1 class="page_name"> Contact Me </h1>
-			</section>
-			
-			<form action="/contact_form" method="post">
-				<div>
-					<label for="Name"> Name:</label>
-					<input type="text" id="name" name="user_name" />
-				</div>
-				<div>
-					<label for="Mail"> Email:</label>
-					<input type="email" id="mail" name="user_mail" />
-				</div>
-				<div>
-					<label for="Msg"> Message:</label>
-					<textarea id="msg" name="user_message"></textarea>
-				</div>
+		<article id="box">
+			<article class="content">
+				<section>
+					<h1 class="page_name"> Contact Me </h1>
+				</section>
+				
+				<form action="/contact_form" method="post">
+					<div id="form">
+						Name:<br>
+						<input type="text" placeholder="John Smith" style="width: 590px;"/><br>
+					</div>
+					<div id="form">
+						 Email:<br>
+						<input type="text" placeholder="example@gmail.com" style="width: 590px"/><br>
+					</div>
+					<div id="form">
+						Message:<br>
+						<input type="text" style="width: 590px; height: 300px;"><br>
+					</div>
 
-				<div class="button">
-					<button type="submit">Submit</button>
-				</div>
-			</form>
+					<a class="button">Submit</a>
+						
+				</form>
+			</article>
 		</article>
 	
 	</div>
